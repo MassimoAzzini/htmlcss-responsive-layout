@@ -74,10 +74,6 @@ header .row {
 /* BODY */
 
 /* ACTIVITY */
-.activity .row {
-  flex-wrap: wrap;
-}
-
 .activity .col {
   height: 350px;
   background-color: blue;

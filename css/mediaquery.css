@@ -1,0 +1,24 @@
+@media screen and (min-width:768px) {
+  .container {
+    width: 90%;
+  }
+
+  .row {
+    flex-direction: row;
+  }
+
+  .activity .row {
+    flex-wrap: wrap;
+  }
+  
+  .activity .col {
+    width: calc(100% / 3);
+    height: 300px;
+  }
+  
+  .activity .col:first-child {
+    width: calc(100% / 3 * 2);
+    height: 300px;
+  }
+  
+  }
