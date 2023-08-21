@@ -57,6 +57,9 @@ section:nth-child(odd) {
 header .row {
   flex-direction: row;
   color: white;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 10px;
 }
 
 header {
@@ -64,10 +67,8 @@ header {
   background-color: #0084fd;
 }
 
-header .row {
-  justify-content: space-between;
-  align-items: center;
-  padding: 0 10px;
+header .menu-header menu {
+  display: none;
 }
 /* fine HEADER */
 

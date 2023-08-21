@@ -7,7 +7,8 @@
     flex-direction: row;
   }
 
-  .activity .row {
+  .activity .row,
+  .benefits .row {
     flex-wrap: wrap;
   }
   
@@ -20,5 +21,39 @@
     width: calc(100% / 3 * 2);
     height: 300px;
   }
-  
+
+  .testimonials .col .card {
+  flex-direction: row;
+  align-items: center;
   }
+
+  .benefits .col {
+    width: 50%;
+  }
+
+  .about-us .row .col.description {
+    width: 60%;
+  }
+
+  .about-us .row .col {
+    width: 40%;
+  }
+}
+
+@media screen and (min-width:1200px) {
+  .container {
+    max-width: 1140px;
+  }
+
+  header .menu-header .img {
+    display: none;
+  }
+
+  header .menu-header menu {
+  display: inline-block;
+}
+
+  .benefits .col {
+    width: calc(100% / 3);
+  }
+}
