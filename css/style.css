@@ -5,22 +5,18 @@
 }
 
 section:nth-child(even) {
-  margin-top: 20px;
-  margin-bottom: 40px;
+  padding-top: 50px;
+  padding-bottom: 80px;
 }
 
 section:nth-child(odd) {
   background-color: #9792e4;
+  padding: 50px 0;
 }
 
 .container {
-  max-width: 1140px;
+  width: 80%;
   height: 100%;
-  margin: 0 auto;
-}
-
-.container-small {
-  max-width: 880px;
   margin: 0 auto;
 }
 
@@ -32,9 +28,8 @@ section:nth-child(odd) {
   position: fixed;
 } */
 
-
-
 .row {
+  flex-direction: column;
   width: 100%;
   height: 100%;
 }
@@ -45,6 +40,7 @@ section:nth-child(odd) {
 
 /* HEADER */
 header .row {
+  flex-direction: row;
   color: white;
 }
 
@@ -56,23 +52,26 @@ header {
 header .row {
   justify-content: space-between;
   align-items: center;
+  padding: 0 10px;
 }
 /* fine HEADER */
 
 /* BODY */
+
+/* ACTIVITY */
 .activity .row {
   flex-wrap: wrap;
 }
 
 .activity .col {
-  width: calc(100% / 3);
+  width: 100%;
+  height: 350px;
   background-color: blue;
-  height: 300px;
   padding: 10px;
 }
 
 .activity .col:first-child {
-  width: calc(100% / 3 * 2);
+  height: 600px;
 }
 
 .activity .col .card {
@@ -81,6 +80,54 @@ header .row {
   background-color: #b5ddff;
   padding: 10px;
 }
+/* fine ACTIVITY */
+
+/* PLANNING AND DEVELOPEMENT */
+.plan-develop .row {
+  flex-direction: column;
+}
+
+.plan-develop .col {
+  width: 100%;
+  padding: 10px;
+}
+
+.plan-develop .col .card {
+  width: 100%;
+}
+
+.card.planning {
+  height: 600px;
+}
+
+.card.developement {
+  height: 600px;
+  padding: 25px;
+  background-color: white;
+}
+/* fine PLANNING AND DEVELOPEMENT */
+
+/* TESTIMONIALS */
+.testimonials .col {
+  width: 100%;
+  padding: 10px;
+  text-align: center;
+}
+
+.testimonials .col .card {
+  flex-direction: column;
+  align-items: center;
+  background-color: #9792e4;
+  width: 100%;
+  padding: 30px 20px;
+}
+
+.testimonials .col .card .photo {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  background-color: white;
+/* fine TESTIMONIALS */
 
 
 /* fine BODY */
