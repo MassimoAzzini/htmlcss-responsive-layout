@@ -43,6 +43,12 @@ section:nth-child(odd) {
   width: 100%;
 }
 
+.photo {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+}
+
 .debug {
   border: 1px solid black;
 }
@@ -117,9 +123,6 @@ header .row {
 }
 
 .testimonials .col .card .photo {
-  width: 200px;
-  height: 200px;
-  border-radius: 50%;
   background-color: white;
 }
 /* fine TESTIMONIALS */
@@ -133,6 +136,9 @@ header .row {
 /* fine BENEFITS */
 
 /* ABOUT US */
+.about-us .photo {
+  background-color: black;
+}
 /* fine ABOUT US */
 
 /* GET STARTED */
