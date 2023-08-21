@@ -3,3 +3,84 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+section:nth-child(even) {
+  margin-top: 20px;
+  margin-bottom: 40px;
+}
+
+section:nth-child(odd) {
+  background-color: #9792e4;
+}
+
+.container {
+  max-width: 1140px;
+  height: 100%;
+  margin: 0 auto;
+}
+
+.container-small {
+  max-width: 880px;
+  margin: 0 auto;
+}
+
+.flex {
+  display: flex;
+}
+
+/* .fix {
+  position: fixed;
+} */
+
+
+
+.row {
+  width: 100%;
+  height: 100%;
+}
+
+.debug {
+  border: 1px solid black;
+}
+
+/* HEADER */
+header .row {
+  color: white;
+}
+
+header {
+  height: 80px;
+  background-color: #0084fd;
+}
+
+header .row {
+  justify-content: space-between;
+  align-items: center;
+}
+/* fine HEADER */
+
+/* BODY */
+.activity .row {
+  flex-wrap: wrap;
+}
+
+.activity .col {
+  width: calc(100% / 3);
+  background-color: blue;
+  height: 300px;
+  padding: 10px;
+}
+
+.activity .col:first-child {
+  width: calc(100% / 3 * 2);
+}
+
+.activity .col .card {
+  width: 100%;
+  height: 100%;
+  background-color: #b5ddff;
+  padding: 10px;
+}
+
+
+/* fine BODY */
