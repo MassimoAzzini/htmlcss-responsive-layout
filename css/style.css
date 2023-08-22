@@ -107,6 +107,14 @@ header .row {
   align-items: center;
 }
 
+header .container,
+header .row,
+header .col,
+header menu {
+  height: 100%;
+  align-items: center;
+}
+
 header .col nav {
   display: none;
 }
