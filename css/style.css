@@ -67,7 +67,7 @@ header {
   background-color: #0084fd;
 }
 
-header .menu-header menu {
+header .col menu {
   display: none;
 }
 /* fine HEADER */
@@ -113,9 +113,11 @@ header .menu-header menu {
 }
 
 .testimonials .col .card {
-  flex-direction: column;
-  align-items: center;
   background-color: #9792e4;
+}
+
+.testimonials .col .row {
+  align-items: center;
   padding: 30px 20px;
 }
 
