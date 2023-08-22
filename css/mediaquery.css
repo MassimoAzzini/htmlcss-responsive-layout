@@ -14,12 +14,14 @@
   
   .activity .col {
     width: calc(100% / 3);
-    height: 300px;
   }
   
   .activity .col:first-child {
     width: calc(100% / 3 * 2);
-    height: 300px;
+  }
+
+  .activity .img {
+    justify-content: center;
   }
 
   .benefits .col {
@@ -42,7 +44,20 @@
 
   header .col nav {
   display: block;
-}
+  }
+
+  .activity .card .row {
+    flex-direction: row;
+  }
+
+  .activity .card .txt {
+    width: 50%;
+  }
+
+  .activity .card .img {
+    width: 50%;
+    margin: 0 auto;
+  }
 
   .benefits .col {
     width: calc(100% / 3);

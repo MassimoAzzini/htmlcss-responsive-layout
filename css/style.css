@@ -8,22 +8,49 @@ body {
   font-family: 'PT Sans', sans-serif;
 }
 
-main {
-  margin-top: 80px;
+:root {
+  --violet: #9792e4;
+  --lightblue: #b5ddff;
+  --blue: #0084fd;
 }
 
-section:nth-child(even) {
-  padding-top: 50px;
-  padding-bottom: 80px;
+main {
+  margin-top: 75px;
 }
 
 section:nth-child(odd) {
-  background-color: #9792e4;
+  padding-top: 40px;
+  padding-bottom: 60px;
+}
+
+section:nth-child(even) {
+  background-color: var(--violet);
   padding: 50px 0;
 }
 
+
+h1 {
+  font-size: 3.2rem;
+}
+
+h2 {
+  font-size: 2.6rem;
+}
+
+h3 {
+  font-size: 2rem;
+}
+
+h4 {
+  font-size: 1.6rem;
+}
+
+h5 {
+  font-size: 1.3rem;
+}
+
 .container {
-  width: 80%;
+  width: 90%;
   height: 100%;
   margin: 0 auto;
 }
@@ -60,8 +87,8 @@ section:nth-child(odd) {
 /* HEADER */
 header {
   width: 100%;
-  height: 80px;
-  background-color: #0084fd;
+  height: 75px;
+  background-color: var(--blue);
   position: fixed;
   top: 0;
   left: 0;
@@ -104,26 +131,59 @@ header nav li:last-child a {
   background-color: white;
   border-radius: 20px;
 }
-
-
 /* fine HEADER */
 
 /* BODY */
 
 /* ACTIVITY */
-.activity .col {
-  height: 350px;
-  background-color: blue;
-}
-
-.activity .col:first-child {
-  height: 600px;
-}
-
 .activity .col .card {
+  text-align: center;
   height: 100%;
-  background-color: #b5ddff;
-  padding: 10px;
+  background-color: var(--lightblue);
+  padding: 30px;
+  border-radius: 20px;
+}
+
+.activity h5 {
+  color: var(--blue);
+}
+
+.activity p {
+  font-size: 0.9rem;
+  line-height: 1.7rem;
+  margin: 25px 0;
+}
+
+.activity a {
+  display: inline-block;
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  padding: 10px 50px;
+  border-radius: 20px;
+  background-color: var(--blue);
+  margin: 10px 0;
+}
+
+.activity .row .col:first-child .card {
+  padding-bottom: 0;
+  text-align: left;
+}
+
+.activity .img {
+  align-items: end;
+}
+
+.activity .card img {
+  width: 100%;
+  max-width: 200px;
+}
+
+.activity span {
+  display: block;
+  font-size: 4.5rem;
+  color: var(--blue);
+  margin-bottom: 10px;
 }
 /* fine ACTIVITY */
 
@@ -149,7 +209,7 @@ header nav li:last-child a {
 }
 
 .testimonials .col .card {
-  background-color: #9792e4;
+  background-color: var(--violet);
 }
 
 .testimonials .col .row {
