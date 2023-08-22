@@ -292,10 +292,45 @@ header nav li:last-child a {
 
 /* BENEFITS */
 .benefits .col .card {
-  height: 400px;
   background-color: white;
   padding: 30px;
 }
+
+.benefits h3 {
+  text-align: center;
+  color: white;
+  padding: 0 10px;
+  margin-bottom: 50px;
+}
+
+.benefits .card {
+  border-radius: 20px;
+}
+
+.benefits h2 {
+  color: var(--violet);
+}
+
+.benefits h5 {
+  color: var(--violet);
+  margin-top: 20px;
+}
+
+.benefits p {
+  line-height: 1.6rem;
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
+
+.benefits a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  background-color: var(--violet);
+  padding: 10px 50px;
+  border-radius: 20px;
+}
+
 /* fine BENEFITS */
 
 /* ABOUT US */
