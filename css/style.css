@@ -357,7 +357,7 @@ header nav li:last-child a {
   object-fit: cover;
 }
 
-.about-us i {
+.about-us .card i {
   position: absolute;
   color: var(--violet);
   font-size: 3.6rem;
@@ -371,6 +371,23 @@ header nav li:last-child a {
   font-weight: bold;
   margin: 20px 0;
 }
+
+.about-us .txt a {
+  text-decoration: none;
+  color: white;
+  background-color: var(--violet);
+  padding: 5px 10px;
+  font-size: 0.9rem;
+  border-radius: 20px;
+}
+
+.about-us .txt i {
+  position: static;
+  font-size: 1rem;
+  color: white;
+  margin-right: 10px;
+}
+
 
 
 /* fine ABOUT US */
