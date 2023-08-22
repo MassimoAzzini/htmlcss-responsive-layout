@@ -39,6 +39,7 @@
 
   .about-us .row .col:last-child {
     width: 400px;
+    margin-left: 50px;
   }
 }
 
