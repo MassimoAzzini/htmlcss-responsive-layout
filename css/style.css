@@ -51,7 +51,12 @@ h5 {
 
 .container {
   width: 90%;
-  height: 100%;
+  margin: 0 auto;
+}
+
+.container-small {
+  width: 90%;
+  max-width: 480px;
   margin: 0 auto;
 }
 
@@ -388,12 +393,67 @@ header nav li:last-child a {
   color: white;
   margin-right: 10px;
 }
-
-
-
 /* fine ABOUT US */
 
 /* GET STARTED */
+.get-started {
+  color: white;
+  text-align: center;
+}
+
+.get-started h4 {
+  margin: 15px 0;
+}
+
+.get-started h1 {
+  color: #fdc15f;
+  margin: 15px 0;
+}
+
+.get-started a.get {
+  display: inline-block;
+  text-decoration: none;
+  color: var(--violet);
+  font-weight: bold;
+  background-color: white;
+  padding: 15px 70px;
+  border-radius: 30px;
+  margin: 30px 0;
+}
+
+.get-started .copyright i {
+  vertical-align: middle;
+  font-size: 0.2rem;
+}
+
+.get-started .copyright a {
+  color: white;
+}
 /* fine GET STARTED */
+
+/* FOOTER */
+footer {
+  height: 230px;
+  background-color: #333333;
+  text-align: center;
+  color: white;
+  padding: 30px 0;
+}
+
+footer .row,
+footer .container-small {
+  height: 100%;
+}
+
+footer .row {
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-content: space-between;
+}
+
+footer a {
+  color: var(--violet);
+}
+/* fine FOOTER */
 
 /* fine BODY */
