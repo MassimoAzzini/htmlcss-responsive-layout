@@ -3,7 +3,19 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- FONT -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+
+  <!-- FONT-AWESOME -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <!-- CSS -->
   <link rel="stylesheet" href="css/style.css">
+
+  <!-- MEDIA QUERY -->
   <link rel="stylesheet" href="css/mediaquery.css">
 
   <title>Responsive Layout</title>
@@ -12,19 +24,30 @@
   <header>
     <div class="container">
       <div class="row flex">
-        <div class="col">LOGO</div>
         <div class="col">
-          <div class="img">IMG</div>
+          <img src="img/logo.png" alt="logo">
+        </div>
+        <div class="col">
           <menu class="flex">
-            <nav>1 2 3 4 </nav>
-            <div>GET STARTED</div>
+            <nav>
+              <ul class="flex">
+                <li><a href="#">Planning</a></li>
+                <li><a href="#">Testimonials</a></li>
+                <li><a href="#">Features</a></li>
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">Get Started</a></li>
+              </ul>
+            </nav>
+            <div class="icon-menu">
+              <i class="fa-solid fa-bars"></i>
+            </div>
           </menu>
         </div>
       </div>
     </div>
   </header>
 
-  <body>
+  <main>
     <!-- ACTIVITY -->
     <section class="activity">
       <div class="container">
@@ -173,7 +196,7 @@
       
     </section>
     <!-- fine GET STARTED -->
-  </body>
+  </main>
 
   <footer>
 

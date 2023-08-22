@@ -36,11 +36,11 @@
     max-width: 1140px;
   }
 
-  header .col .img {
+  header .col .icon-menu {
     display: none;
   }
 
-  header .col menu {
+  header .col nav {
   display: block;
 }
 
