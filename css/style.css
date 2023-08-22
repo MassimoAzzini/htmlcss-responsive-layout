@@ -193,14 +193,50 @@ header nav li:last-child a {
 }
 
 .card.planning {
-  height: 600px;
+  color: white;
+}
+
+.plan-develop img {
+  width: 100%;
+}
+
+.plan-develop h3 {
+  margin-top: 50px;
+}
+
+.plan-develop p {
+  font-size: 0.9rem;
+  line-height: 1.6rem;
+  margin: 20px 0;
 }
 
 .card.developement {
-  height: 600px;
+  text-align: center;
   padding: 25px;
   background-color: white;
+  border-radius: 40px;
 }
+
+.card.developement p {
+  font-style: italic;
+} 
+
+.card.developement h5 {
+  margin-top: 20px;
+}
+
+.card.developement div {
+  cursor: pointer;
+  width: 50px;
+  height: 50px;
+  background-color: var(--violet);
+  border-radius: 50%;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+}
+
+
 /* fine PLANNING AND DEVELOPEMENT */
 
 /* TESTIMONIALS */
